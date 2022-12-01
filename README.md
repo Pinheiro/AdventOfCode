@@ -1,2 +1,4 @@
-# AdventOfCode
-Python and C# solution for the Advent of Code puzzles.
+# Advent Of Code
+Python and C# solutions for the Advent of Code puzzles.
+
+https://adventofcode.com/
