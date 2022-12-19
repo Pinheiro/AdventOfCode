@@ -1,4 +1,4 @@
-class TreeNode(object):
+class TreeNode:
 
     def __init__(self, name, parent):
         self.name = name
@@ -27,8 +27,8 @@ class TreeNode(object):
             self.Resize(child)
             node.size += child.size
     
-#fileName = "_Input/2022-07-1.inputTestA"
-fileName = "_Input/2022-07-1.inputPuzzle"
+#fileName = "_Input/2022/2022-07-1.inputTestA"
+fileName = "_Input/2022/2022-07-1.inputPuzzle"
 input = [x.strip() for x in open(fileName, "r").readlines()]
 
 tree = None
